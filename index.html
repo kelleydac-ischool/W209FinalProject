@@ -23,13 +23,14 @@
       but sorting through the data to answer some simple questions can be challenging. We 
       have created this portal to simplify the process and make the data more accessible. </p>
       <p>The visualizations below present the CalSTAR for San Francisco in 2013 to try to answer 6 questions:
-    <ol><li>Do charter schools play a significant role in Sanfrancisco? Where are they located in the city?</li>
-    <li>How is performance on the CalSTAR tests distributed about the city for different grades?</li>
-    <li>Is there a performance difference if students take a particular test in different grades?</li>
-    <li>Are there schools where students perform well on several tests?</li>
-    <li>Can we create a profile to compare school performance for a given test and grade?</li>
-    <li>Is there a pattern of performance across demographic groups within a school?</li>
+    <ol><li><h4>Do charter schools play a significant role in Sanfrancisco? Where are they located in the city?</h4></li>
+    <li><h4>How is performance on the CalSTAR tests distributed about the city for different grades?</h4></li>
+    <li><h4>Is there a performance difference if students take a particular test in different grades?</h4></li>
+    <li><h4>Are there schools where students perform well on several tests?</h4></li>
+    <li><h4>Can we create a profile to compare school performance for a given test and grade?</h4></li>
+    <li><h4>Is there a pattern of performance across demographic groups within a school?</h4></li>
     </ol></p>
+    <h3>Do charter schools show a different pattern of performance from traditional public schools in San Francisco?</h3>
     <p><a href="http://www.publiccharters.org/get-the-facts/public-charter-schools/">Charter 
     schools</a> have been a novel but controversial addition to the public education system 
     over the past two decades. While some see them as a way to improve student performance 
@@ -38,11 +39,9 @@
     <a href="http://www.latimes.com/opinion/op-ed/la-oe-ravitch-charters-school-reform-20131001-story.html">others </a> question 
     whether these changes really result in any educational gains, and question the role 
     and motives of private companies in operating these charters.</p>
-    <h3>Do charter schools show a different pattern of performance from traditional public schools in San Francisco?</h3>
-    <p>How do we characterize performance?
-     <br>
-     <br>
-     Performance is broken down into five levels:
+    
+    <h3>How do we characterize performance?</h3>
+     <p>Performance is broken down into five levels:
      <ul>
      <li>Advanced</li>
      <li>Proficient</li>
@@ -52,7 +51,9 @@
      </ul>
      For simplicity, we show only the top four levels below.</p>
      <p>Each test can be taken in different grades depending on the classes in which the student is enrolled.
-     The dataset is anonymized in that no group of fewer than 10 students is represented in the dataset.</p>
+     The dataset is anonymized in that no group of fewer than 10 students is represented 
+     in the dataset. The subgroup data only includes the percentage at or above proficient, 
+     not the full breakdown into five levels, to keep the data anonymous.</p>
      </p>
      <p>More information on the scoring methods and the performance standards can be found 
      <a href="http://star.cde.ca.gov/star2006/help_scoreexplanations.asp">here</a>.</p>
@@ -86,6 +87,7 @@
      		<param name='bootstrapWhenNotified' value='true' />
      	</object>
      </div>
+     <h3>We find charter schools in the central and southeastern parts of San Francisco.</h3>
        <hr>
        <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
        <div class='tableauPlaceholder' style='width: 1020px; height: 669px;'>
@@ -107,6 +109,7 @@
        		<param name='bootstrapWhenNotified' value='true' />
        		</object>
        	</div>
+       	 <h3>While not all schools report data from all tests, we can compare performance from several tests (like CST Science) wich are reported from many zip codes<./h3>
 	   <hr>
 	   <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 	   <div class='tableauPlaceholder' style='width: 1020px; height: 1033px;'>
@@ -128,7 +131,7 @@
 	   		<param name='bootstrapWhenNotified' value='true' />
 	   	</object>
 	   </div>
-
+        <h3>For many tests, we find better performance in the western part of the city and poorer performance in the southeastern part of the city.</h3>
         <hr>
 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 		<div class='tableauPlaceholder' style='width: 1024px; height: 719px;'>
@@ -150,6 +153,7 @@
 			<param name='bootstrapWhenNotified' value='true' />
 		</object>
 		</div>
+		<h3>We find several schools with high performance in several subjects across several grades, and other schools with poorer performance across subjects and across grades.</h3>
 		<hr>
 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 		<div class='tableauPlaceholder' style='width: 1024px; height: 669px;'>
@@ -171,6 +175,7 @@
 			<param name='bootstrapWhenNotified' value='true' />
 			</object>
 		</div>
+		<h3>When we compare the performance profile of several schools, we only find traditional schools with left-weighted performance profiles.</h3>
 		<hr>
 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 		<div class='tableauPlaceholder' style='width: 1024px; height: 719px;'>
@@ -191,6 +196,7 @@
 			<param name='bootstrapWhenNotified' value='true' />
 		</object>
 		</div>
+		<h3>When we look across demographic groups, we find the same performance clusters for several groups.</h3>
 		<hr>
 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 		<div class='tableauPlaceholder' style='width: 1020px; height: 1033px;'>
@@ -212,6 +218,9 @@
 				<param name='bootstrapWhenNotified' value='true' />
 			</object>
 		</div>
+		<h3>We find that students who take some math class in lower grades show better 
+		performance than those who take the test in later grades, an exception to the clustering we saw earlier.</h3>
+		<hr>
 	<p>Some schools, particularly in the western part of the city, show very high performance 
 	in a number of subjects among several demographic groups. One exception for some subjects 
 	like geometry is that students who take this test in later grades typically show lower 
